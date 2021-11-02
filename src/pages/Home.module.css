@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+    margin: 3rem;
+    border: 3px solid rgb(122,122,122);
+}
+
+.content {
+    margin: 2rem;
+}
+
+.content p {
+    font-size: 2rem;
+    margin: 1rem .5rem;
+}
+
+.content p span {
+    font-weight: 700;
+}
+
+.divider {
+    width: 2px;
+    height: 25rem;
+    margin: 6px 0;
+    background: rgb(122, 122, 122);
+}

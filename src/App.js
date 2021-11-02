@@ -1,5 +1,5 @@
 import React from 'react';
-import { Redirect, Route, Switch } from 'react-router';
+import { Route, Switch } from 'react-router';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
@@ -14,9 +14,6 @@ function App() {
       <PageContainer>
         <Switch>
           <Route path="/" exact>
-            <Redirect to="/home" />
-          </Route>
-          <Route path="/home">
             <Home />
           </Route>
           <Route path="/skills">

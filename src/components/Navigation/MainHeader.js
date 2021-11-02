@@ -8,9 +8,7 @@ const MainHeader = () => {
     <nav className={classes.nav}>
       <ul>
         <li>
-          <NavLink activeClassName={classes.active} to="/home">
-            Home
-          </NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
           <NavLink activeClassName={classes.active} to="/skills">
