@@ -6,26 +6,21 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Navigation from './components/Navigation/Navigation';
 import PageContainer from './components/UI/PageContainer';
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
   return (
     <>
       <Navigation />
       <PageContainer>
-        <Switch>
-          <Route path="/" exact>
-            <Home />
-          </Route>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
+        <AnimatePresence>
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </AnimatePresence>
       </PageContainer>
     </>
   );
