@@ -1,0 +1,14 @@
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.projectsList {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    margin: 1rem 0 2rem 0;
+}
