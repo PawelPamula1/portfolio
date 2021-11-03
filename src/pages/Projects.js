@@ -14,6 +14,10 @@ const Projects = () => {
         <h1>My Projects</h1>
         <div className={classes.projectsList}>
           <ProjectItem />
+          <ProjectItem />
+          <ProjectItem />
+          <ProjectItem />
+          <ProjectItem />
         </div>
       </section>
     </motion.div>

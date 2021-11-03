@@ -7,6 +7,7 @@ h1 {
 .projectsList {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .projects {
