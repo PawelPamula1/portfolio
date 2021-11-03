@@ -1,0 +1,59 @@
+.contact {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact h1 {
+    font-size: 3rem;
+}
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mail>* {
+    margin-right: 1rem;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.phone>* {
+    margin-right: 1rem;
+}
+
+.socials {
+    font-size: 3rem;
+}
+
+.icon {
+    margin-right: 2rem;
+    color: black;
+}
+
+.icon:hover {
+    color: grey
+}
+
+.button {
+    color: #fff;
+    background-color: #000;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.3);
+    text-decoration: none;
+}

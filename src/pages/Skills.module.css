@@ -1,0 +1,7 @@
+.skills {
+    font-size: 4rem;
+    margin: 0 auto;
+}
+.skills>* {
+    margin-right: 2rem;
+}

@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5rem 0 1rem 0 ;
 }
 
 .img {
@@ -30,4 +31,14 @@
     height: 25rem;
     margin: 6px 0;
     background: rgb(122, 122, 122);
+}
+
+.skills {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.skills>* {
+    margin-right: 2rem;
 }
