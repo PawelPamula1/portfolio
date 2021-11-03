@@ -15,10 +15,11 @@
 @media (max-width: 700px) {
     .nav {
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         background-color: black;
-        width: 100%;
-        height: 100%;
+        top: -10rem;
+        width: 100vw;
+        height: 140vh;
         justify-content: center;
         margin: 0;
         padding: 0;

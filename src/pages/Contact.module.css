@@ -6,6 +6,9 @@
 .contact h1 {
     font-size: 3rem;
 }
+
+
+
 .contact h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -56,4 +59,26 @@
     border-radius: 5px;
     box-shadow: 10px 10px 5px rgba(0,0,0,.3);
     text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .contact h1 {
+        font-size: 2rem;
+    }
+
+    .contact h2 {
+        font-size: 1.7rem;
+    }
+
+    .mail {
+        font-size: 1.5rem;
+    }
+
+    .phone {
+        font-size: 1.5rem;
+    }
+
+    .socials {
+
+    }
 }
