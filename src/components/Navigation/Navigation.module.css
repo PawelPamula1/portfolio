@@ -4,3 +4,24 @@
     padding: 4rem 15rem 2rem 15rem;
     color: #fff;
 }
+
+@media (max-width: 1000px ) {
+    .navigation {
+        padding: 3rem 10rem 2rem 10rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .navigation {
+        justify-content: center;
+        padding: 2rem 0;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .navigation {
+        padding: 0;
+        margin: 2rem 0;
+    }
+}

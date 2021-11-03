@@ -4,6 +4,55 @@
     justify-content: center;
 }
 
+
+@media (min-width: 701px) {
+    .hamburger,
+    .cross {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav {
+        flex-direction: column;
+        position: absolute;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+        left: -110%;
+        transition: all .3s ease-in;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    .nav ul li {
+        margin-bottom: 1.5rem;
+    }
+
+    .clicked {
+        opacity: 1;
+        left: 0;
+    }
+
+    .hamburger,
+    .cross {
+        position: fixed;
+        top: 2rem;
+        right: 2rem;
+        font-size: 2rem;
+        color: white;
+        z-index: 10;
+    }
+}
+
 .nav ul {
     display: flex;
     padding: 0 2rem;
