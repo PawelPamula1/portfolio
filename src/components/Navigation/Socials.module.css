@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 1rem;
+    padding: 0 1rem;
 }
 
 .socials>* {
-    padding-left: .7rem;
+    padding: 0 .7rem;
 }
 
 .icon {
