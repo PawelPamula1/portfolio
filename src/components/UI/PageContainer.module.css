@@ -23,8 +23,16 @@
     }
 }
 
+@media (max-width: 768px) {
+    .container {
+        margin: 1rem;
+        padding: 2rem;
+    }
+}
 
-
-@media (max-width: 1540px) {
-    
+@media (max-width: 600px) {
+    .container {
+        margin: .5rem;
+        padding: 1.5rem;
+    }
 }

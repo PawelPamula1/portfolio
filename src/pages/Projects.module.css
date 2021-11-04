@@ -11,11 +11,5 @@ h1 {
 }
 
 .projects {
-    margin: 1rem 0 2rem 0;
-}
-
-@media (max-width: 1583px) {
-    h1 {
-        padding-top: 2rem;
-    }
+    padding: 2rem 0;
 }

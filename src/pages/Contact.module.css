@@ -7,8 +7,6 @@
     font-size: 3rem;
 }
 
-
-
 .contact h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -61,7 +59,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
     .contact h1 {
         font-size: 2rem;
     }
@@ -79,6 +77,57 @@
     }
 
     .socials {
+        font-size: 2.5rem;
+    }
+}
 
+@media (max-width: 600px) {
+    .content {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .mail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+
+    .mail p {
+        margin-top: .5rem;
+    }
+
+    .phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+
+    .phone p {
+        margin-top: .5rem;
+    }
+
+    .socials {
+        font-size: 2.5rem;
+    }
+
+    .button {
+        font-size: 1.3rem;
+        padding: .5rem;
+    }
+}
+
+@media (max-width: 400px ) {
+    .mail p {
+        font-size: 1.1rem;
+    }
+
+    .phone p {
+        font-size: 1.1rem;
     }
 }

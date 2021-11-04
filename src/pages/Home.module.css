@@ -5,10 +5,6 @@
     padding: 5rem 0 1rem 0 ;
 }
 
-
-
-
-
 .img {
     width: 20rem;
     height: auto;
@@ -26,9 +22,6 @@
     margin: 1rem .5rem;
 }
 
-
-
-
 .content p span {
     font-weight: 700;
 }
@@ -39,7 +32,6 @@
     margin: 6px 0;
     background: rgb(122, 122, 122);
 }
-
 
 .skills {
     font-size: 4rem;
@@ -71,19 +63,29 @@
     }
 }
 
-@media (max-width: 1104px) {
-    
+@media (max-width: 1200px) {
     .home {
         flex-direction: column;
     }
     .divider{
         display: none;
     }
-    .content p {
-        font-size: 1.3rem;
-    }
     .img {
         width: 12rem;
         margin: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        text-align: center;
+    }
+    .content {
+        padding: .5rem 0;
+    }
+
+    .skills {
+        font-size: 3rem;
+        padding: 0;
     }
 }
