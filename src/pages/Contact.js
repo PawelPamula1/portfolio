@@ -10,8 +10,6 @@ import {
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-import CV from '../pdf/CV.pdf';
-
 const Contact = () => {
   return (
     <motion.div
@@ -57,7 +55,7 @@ const Contact = () => {
             </div>
           </div>
         </Card>
-        <a href={CV} download className={classes.button}>
+        <a href="#" className={classes.button}>
           Download my CV
         </a>
       </section>
