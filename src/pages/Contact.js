@@ -9,6 +9,7 @@ import {
   faGithubSquare,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
+import CV from '../pdf/CV.pdf';
 
 const Contact = () => {
   return (
@@ -55,7 +56,7 @@ const Contact = () => {
             </div>
           </div>
         </Card>
-        <a href="#" className={classes.button}>
+        <a href={CV} download className={classes.button}>
           Download my CV
         </a>
       </section>
