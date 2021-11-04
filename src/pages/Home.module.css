@@ -2,24 +2,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5rem 0 1rem 0 ;
+    padding-top: 5rem;
 }
 
 .img {
-    width: 20rem;
+    width: 17rem;
     height: auto;
     border-radius: 50%;
-    margin: 3rem;
+    margin: 1rem 1rem 0 5rem;
     border: 3px solid rgb(122,122,122);
 }
 
 .content {
-    margin: 2rem;
+    margin: 1rem 7rem 0 0;
 }
 
 .content p {
-    font-size: 2rem;
-    margin: 1rem .5rem;
+    font-size: 1.8rem;
+    margin: 0 .5rem;
 }
 
 .content p span {
@@ -28,7 +28,7 @@
 
 .divider {
     width: 2px;
-    height: 25rem;
+    height: 20rem;
     margin: 6px 0;
     background: rgb(122, 122, 122);
 }
@@ -59,7 +59,7 @@
     }
 
     .img {
-        width: 15rem
+        width: 14rem
     }
 }
 
