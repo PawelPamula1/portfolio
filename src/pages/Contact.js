@@ -35,19 +35,25 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/pawelpamula003/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faLinkedin} className={classes.icon} />
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=100012829777760"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon
                   icon={faFacebookSquare}
                   className={classes.icon}
                 />
               </a>
-              <a href="https://github.com/PawelPamula1" target="_blank">
+              <a
+                href="https://github.com/PawelPamula1"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={faGithubSquare}
                   className={classes.icon}

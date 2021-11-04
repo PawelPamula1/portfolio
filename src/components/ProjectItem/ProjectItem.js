@@ -7,7 +7,7 @@ import classes from './ProjectItem.module.css';
 const ProjectItem = (props) => {
   return (
     <div className={classes.project}>
-      <img src={props.img} />
+      <img src={props.img} alt={props.title} />
       <h1 className={classes.title}>{props.title}</h1>
       <div className={classes.links}>
         <a href={props.linkLive} className={classes.link}>
