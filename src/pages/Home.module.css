@@ -43,7 +43,8 @@
 }
 
 .skills>* {
-    margin-right: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -73,6 +74,11 @@
     .img {
         width: 12rem;
         margin: 1rem;
+    }
+
+    .content {
+        margin: 1rem;
+        text-align: center;
     }
 }
 
