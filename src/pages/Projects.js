@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import ProjectItem from '../components/ProjectItem/ProjectItem';
 import classes from './Projects.module.css';
 import portfolioProject from '../jpg/projects/portfolio-project.jpg';
+import foody from '../jpg/projects/foody.jpeg';
 
 const ProjectList = [
   {
@@ -16,11 +17,12 @@ const ProjectList = [
   },
   {
     title: 'Foody App',
-    linkCode: '#',
-    linkLive: '#',
-    description: 'IN PROGRESS...',
+    linkCode: 'https://github.com/PawelPamula1/foody-app',
+    linkLive: 'https://foody-app-pp.netlify.app/',
+    description:
+      "App where you can adjust your diet to your caloric demand. Just type an amount of calories and that's it.",
     stack: ['React', 'REST API', 'CSS Modules', 'HTTP Requests'],
-    img: 'https://www.fitagain.pl/wp-content/uploads/2019/09/IMG_88612str.jpg',
+    img: foody,
   },
 ];
 
