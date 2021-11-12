@@ -4,8 +4,18 @@ import ProjectItem from '../components/ProjectItem/ProjectItem';
 import classes from './Projects.module.css';
 import portfolioProject from '../jpg/projects/portfolio-project.jpg';
 import foody from '../jpg/projects/foody.jpeg';
+import spaceTourism from '../jpg/projects/space-tourism-app.jpg';
 
 const ProjectList = [
+  {
+    title: 'Space Tourism App',
+    linkCode: 'https://github.com/PawelPamula1/space-tourism-app',
+    linkLive: 'https://space-tourism-pp.netlify.app/',
+    description:
+      'I develop this site with design from www.frontendmentor.io to challenge and practice my skills',
+    stack: ['React', 'React Hooks', 'CSS Modules', 'React Router'],
+    img: spaceTourism,
+  },
   {
     title: 'This Portfolio',
     linkCode: 'https://github.com/PawelPamula1/portfolio',
