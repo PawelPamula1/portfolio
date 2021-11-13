@@ -5,14 +5,24 @@ import classes from './Projects.module.css';
 import portfolioProject from '../jpg/projects/portfolio-project.jpg';
 import foody from '../jpg/projects/foody.jpeg';
 import spaceTourism from '../jpg/projects/space-tourism-app.jpg';
+import crypto from '../jpg/projects/crypto.jpg';
 
 const ProjectList = [
+  {
+    title: 'Every Crypto',
+    linkCode: 'https://github.com/PawelPamula1/every-crypto',
+    linkLive: 'https://every-crypto.netlify.app/',
+    description:
+      'This site generate a lot of info about most popular cryptocurrencies and also news about all crypto world',
+    stack: ['React', 'Redux Toolkit', 'Chart.js', 'React Router', 'Ant Design'],
+    img: crypto,
+  },
   {
     title: 'Space Tourism App',
     linkCode: 'https://github.com/PawelPamula1/space-tourism-app',
     linkLive: 'https://space-tourism-pp.netlify.app/',
     description:
-      'I develop this site with design from www.frontendmentor.io to challenge and practice my skills',
+      'I developed this site with design from www.frontendmentor.io to challenge and practice my skills',
     stack: ['React', 'React Hooks', 'CSS Modules', 'React Router'],
     img: spaceTourism,
   },
