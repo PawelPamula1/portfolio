@@ -10,11 +10,11 @@ const ProjectItem = (props) => {
       <img src={props.img} alt={props.title} />
       <h1 className={classes.title}>{props.title}</h1>
       <div className={classes.links}>
-        <a href={props.linkLive} className={classes.link}>
+        <a href={props.linkLive} className={classes.link} target="_blank">
           <FontAwesomeIcon icon={faGlobe} />
           <span>Live</span>
         </a>
-        <a href={props.linkCode} className={classes.link}>
+        <a href={props.linkCode} className={classes.link} target="_blank">
           <FontAwesomeIcon icon={faGithub} />
           <span>Code</span>
         </a>
