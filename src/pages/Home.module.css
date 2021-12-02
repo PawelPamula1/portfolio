@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5rem;
 }
 
 .img {
@@ -14,16 +13,44 @@
 }
 
 .content {
-    margin: 1rem 7rem 0 0;
+    margin: 1rem;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.content hr {
+    margin: .5rem auto;
+    width: 10%;
+    height: 4px;
+    background-color: black;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .content p {
-    font-size: 1.8rem;
-    margin: 0 .5rem;
+    font-size: 1.3rem;
+    margin-bottom: .7rem;
 }
 
-.content p span {
-    font-weight: 700;
+.content button {
+    padding: 1rem 3rem;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.content a {
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .divider {
