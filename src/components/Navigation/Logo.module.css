@@ -3,5 +3,5 @@
 .logo {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    max-height: 4rem;
 }

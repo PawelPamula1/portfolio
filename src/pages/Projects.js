@@ -7,8 +7,17 @@ import foody from '../jpg/projects/foody.jpeg';
 import spaceTourism from '../jpg/projects/space-tourism-app.jpg';
 import crypto from '../jpg/projects/crypto.jpg';
 import netflix from '../jpg/projects/netflix-clone.jpg';
+import gugl from '../jpg/projects/gugl.jpg';
 
 const ProjectList = [
+  {
+    title: 'Gugl Search Engine',
+    linkCode: 'https://github.com/PawelPamula1/best-search-engine',
+    linkLive: 'https://gugl-search-engine-pp.netlify.app/',
+    description: 'Here is my own search engine made with help of Search Google API from rapidapi.',
+    stack: ['React', 'Context API', 'Tailwind CSS', 'React Router', 'REST API'],
+    img: gugl,
+  },
   {
     title: 'Netflix Clone',
     linkCode: 'https://github.com/PawelPamula1/netflix-clone',
