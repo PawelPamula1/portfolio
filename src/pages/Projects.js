@@ -6,7 +6,6 @@ import portfolioProject from '../jpg/projects/portfolio-project.jpg';
 import foody from '../jpg/projects/foody.jpeg';
 import spaceTourism from '../jpg/projects/space-tourism-app.jpg';
 import crypto from '../jpg/projects/crypto.jpg';
-import netflix from '../jpg/projects/netflix-clone.jpg';
 import gugl from '../jpg/projects/gugl.jpg';
 
 const ProjectList = [
