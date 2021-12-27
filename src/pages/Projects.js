@@ -18,15 +18,15 @@ const ProjectList = [
     stack: ['React', 'Context API', 'Tailwind CSS', 'React Router', 'REST API'],
     img: gugl,
   },
-  {
-    title: 'Netflix Clone',
-    linkCode: 'https://github.com/PawelPamula1/netflix-clone',
-    linkLive: 'https://netflix-clone-pp.netlify.app/',
-    description:
-      "I made a netflix clone with firebase authentication. You can sign up and sign in (If you don't want to give your credentials you can use these- email: pawel@gmail.com ; password: Siemanko",
-    stack: ['React', 'Context API', 'Styled Components', 'React Router', 'Firebase'],
-    img: netflix,
-  },
+  // {
+  //   title: 'Netflix Clone',
+  //   linkCode: 'https://github.com/PawelPamula1/netflix-clone',
+  //   linkLive: 'https://netflix-clone-pp.netlify.app/',
+  //   description:
+  //     "I made a netflix clone with firebase authentication. You can sign up and sign in (If you don't want to give your credentials you can use these- email: pawel@gmail.com ; password: Siemanko",
+  //   stack: ['React', 'Context API', 'Styled Components', 'React Router', 'Firebase'],
+  //   img: netflix,
+  // },
   {
     title: 'Every Crypto',
     linkCode: 'https://github.com/PawelPamula1/every-crypto',
