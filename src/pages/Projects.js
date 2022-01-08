@@ -7,6 +7,7 @@ import foody from '../jpg/projects/foody.jpeg';
 import spaceTourism from '../jpg/projects/space-tourism-app.jpg';
 import crypto from '../jpg/projects/crypto.jpg';
 import gugl from '../jpg/projects/gugl.jpg';
+import netflix from '../jpg/projects/netflix-clone.jpg';
 
 const ProjectList = [
   {
